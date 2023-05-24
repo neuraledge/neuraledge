@@ -75,7 +75,7 @@ in bft/pbft-network folder
 - close network
 ./byfn.sh down
 
-# run application to access ledger
+# Run application to access ledger
 in /bft/client
 
 node enrollAdmin.js
