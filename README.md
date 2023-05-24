@@ -1,14 +1,14 @@
-# download required binaries
+# Download required binaries
 curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.4.4 1.4.4 0.4.22
 
-# create bft orderer and gen tool
+# Create bft orderer and gen tool
 make orderer-docker
 
 make configtxgen
 
 copy generated 'orderer' and 'configtxgen' to bft/bin folder
 
-# other envirnment setting
+# Other envirnment setting
 - GO installation
 
 download go1.15
@@ -66,7 +66,7 @@ go mod vendor
 - nodejs v8
 - docker
 
-# build bft network
+# Build bft network
 - start network with couchdb
 in bft/pbft-network folder
 
